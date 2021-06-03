@@ -1,25 +1,14 @@
 apiVersion: v1
 entries:
-  app1:
+  app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-06-03T01:09:27.636295915Z"
+    created: "2021-06-03T01:33:33.45231352Z"
     description: A Helm chart for Kubernetes
-    digest: 1b053ee0898798cc90de08338b413085cf6d78c91583ea1a1c8377cd2212e4dc
-    name: app1
+    digest: 0e695799891942a10498cd8e64e3b4e127c0dd28cf46f72613f589068ba3073b
+    name: app
     type: application
     urls:
-    - https://github.com/mwang2016/my-helm-charts/releases/download/app1-0.1.2/app1-0.1.2.tgz
-    version: 0.1.2
-  app2:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2021-06-03T01:09:27.782069314Z"
-    description: A Helm chart for Kubernetes
-    digest: e50780d115f0c918014d6a8755c188f421fb6bc717e730b332f71ad9ebd41e55
-    name: app2
-    type: application
-    urls:
-    - https://github.com/mwang2016/my-helm-charts/releases/download/app2-0.1.2/app2-0.1.2.tgz
-    version: 0.1.2
-generated: "2021-06-03T01:09:27.782075614Z"
+    - https://github.com/mwang2016/my-helm-charts/releases/download/app-0.1.4/app-0.1.4.tgz
+    version: 0.1.4
+generated: "2021-06-03T01:33:33.45231852Z"
