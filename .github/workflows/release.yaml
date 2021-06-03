@@ -34,7 +34,7 @@ jobs:
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.2.1
         with:
-          charts_repo_url: "https://github.com/mwang2016/my-helm-charts/tree/gh-pages"
+          charts_repo_url: "https://github.com/mwang2016/my-helm-charts"
           charts_dir: charts
         env:
           CR_TOKEN: "${{ secrets.CR_TOKEN }}"
